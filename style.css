@@ -3,6 +3,10 @@
     padding:0;
     box-sizing: border-box;
 }
+::selection{
+    background:tomato;
+}
+
 header,footer {
     min-height: 15vh;
     text-align: center;
@@ -50,6 +54,7 @@ section pre {
     flex-grow:1;
     display:flex;
     align-items: center;
+    user-select: all;
 }
 
 
